@@ -3,15 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
+use App\Models\User;
 
 class UserController extends Controller
 {
     //
     public function index()
     {
-        echo 'Hello user';
-        // DB::insert('insert into users (name, email, password) values(?, ?, ?)', ['Pankaj', 'aagjalpankaj@gmail.com', 'password']);
-        // $users = DB::select('select * from users;');
-        dd($users);
+    //    $user = new User();
+    //    $user->name = 'Pankaj23';
+    //    $user->email = 'test1@dev.lcl';
+    //    $user->password = 'pass';
+    //    $user->save();
+
+        // $users = User::all();
+
+        User::all()->delete();
+
+        return 'Deleted';
     }
 }

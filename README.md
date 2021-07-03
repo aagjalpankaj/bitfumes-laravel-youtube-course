@@ -30,9 +30,22 @@
 - `php artisan migrate`
 
 ## Raw SQL Queries
-- `DB::insert`
-- `DB::select`
-- `DB::update`
-- `DB::delete`
+- `DB::insert` // C
+- `DB::select` // R
+- `DB::update` // U
+- `DB::delete` // D
 
+## Eloquent ORM Crud
+- `dd()`
+- `bcrypt()`
+- laravel facade
+- `User::all()`
+- `$user = new User(); $user->save();`
+- `User::where('id', 3)->update()`
+- `User::where('id', 3)->delete()`
+- Model $hidden fields
+
+## Mass Assignment Security
+- `User::create( [ 'name' => 'Pankaj', 'email' => 'a@b.lcl', 'password' => 'pass' ] )`
+- [58:07]
 
