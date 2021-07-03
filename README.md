@@ -9,7 +9,18 @@
 - `git init`
 - `git remote add origin <github repo http url>`
 - https://gist.github.com/sarthaksavvy
+- Routes: Any url hit goes through route 
+- Blade: Laravel templating engine
+- .gitignore
+- vendor & composer.json
+- .env
 
+
+# What the heck is MVC?
+- Model View Controller
+- Model: 
+- View: 
+- Controller: 
 
 
 
