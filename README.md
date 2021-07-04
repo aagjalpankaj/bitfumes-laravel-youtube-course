@@ -48,4 +48,10 @@
 ## Mass Assignment Security
 - `User::create( [ 'name' => 'Pankaj', 'email' => 'a@b.lcl', 'password' => 'pass' ] )`
 - [58:07]
+- $fillable, $guarded
+
+## Accessor & Mutators
+- Getter & setters
+- `set<Camelcase fieldname>Attribute`
+
 

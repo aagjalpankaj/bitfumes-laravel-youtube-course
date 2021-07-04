@@ -10,16 +10,13 @@ class UserController extends Controller
     //
     public function index()
     {
-    //    $user = new User();
-    //    $user->name = 'Pankaj23';
-    //    $user->email = 'test1@dev.lcl';
-    //    $user->password = 'pass';
-    //    $user->save();
+        User::create(
+            [
+                'name' => 'Yogesh',
+                'email' => 'a@b.lcl',
+                'password' => bcrypt('pass')
+            ]
 
-        // $users = User::all();
-
-        User::all()->delete();
-
-        return 'Deleted';
+        );
     }
 }
