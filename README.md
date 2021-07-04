@@ -54,4 +54,23 @@
 - Getter & setters
 - `set<Camelcase fieldname>Attribute`
 
+## Install First Party Package - Laravel UI
+- `composer require laravel/ui`
+- `php artisan ui:auth`
+- `php artisan ui bootstrap|vue|react`
 
+
+## Blade Template Engine
+- `php artisan route:list`
+- @yeild
+- @section
+- @auth
+- @extends
+
+
+## Laravel Configurations
+- `config` directory
+- Service providers
+
+## All Configurations
+- [1:36]
