@@ -73,4 +73,38 @@
 - Service providers
 
 ## All Configurations
-- [1:36]
+- auth.php
+- broadcasting.php
+- cache.php
+- cors.php
+- database.php
+- filesystems.php
+- hashing.php
+- logging.php
+- mail.php
+- services.php
+- view.php
+
+## Upload Image for User
+- CSRF
+- `@csrf`
+- `request()->all()`
+- `$request->image->store('images')`
+
+## Store User Avatar
+- `php artisan migrate:refresh`
+- 
+
+## Show User Avatar
+- `php artisan storage:link`
+- 
+
+## Remove old Image
+- 
+
+## Flash session
+- 
+
+## Blade include subview
+- `@include`
+- laravel component
